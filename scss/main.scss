@@ -5,5 +5,25 @@
 @import "./base/container";
 @import "./base/section";
 
+@import "./components/logo";
+@import "./components/titles";
+@import "./components/backdrop";
+@import "./components/modal-close-button";
+@import "./components/modal-form";
+@import "./components/modal-window";
+@import "./components/main-button";
+
+
+@import "./layouts/header";
 @import "./layouts/hero";
+@import "./layouts/feauters";
+@import "./layouts/images";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/filters";
+@import "./layouts/project";
+@import "./layouts/footer";
+
+
+
 
