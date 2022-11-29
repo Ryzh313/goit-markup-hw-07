@@ -1,1 +1,64 @@
-/*# sourceMappingURL=main.css.map */
+:root {
+  --primery-black-color: #212121;
+  --primery-white-color: #ffffff;
+  --secondary-text-color: #757575;
+  --accent-blue-color: #2196f3;
+  --accent-black-color: #000000;
+  --secondary-black-color: #2f303a;
+  --transparency-white-color: #ffffff99;
+  --hover-blue-color: #188ce8;
+  --header-line-color: #ececec;
+  --secondary-white-color: #f5f4fa;
+  --border-line-color: #eeeeee;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--primery-white-color);
+  color: var(--primery-black-color);
+  font-family: "roboto", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}/*# sourceMappingURL=main.css.map */

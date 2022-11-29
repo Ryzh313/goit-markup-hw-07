@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primery-black-color: #212121;
   --primery-white-color: #ffffff;
   --secondary-text-color: #757575;
@@ -10,14 +10,11 @@
   --header-line-color: #ececec;
   --secondary-white-color: #f5f4fa;
   --border-line-color: #eeeeee;
-}
+} */
 
 /*========== Загальні стилі =========== */
 
-/* * {
-  box-sizing: border-box;
-} */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -46,22 +43,22 @@ body {
   color: var(--primery-black-color);
 
   font-family: 'roboto', sans-serif;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -73,7 +70,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .link {
   text-decoration: none;
@@ -92,8 +89,6 @@ body {
 }
 
 .header {
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
   border-bottom: 1px solid var(--header-line-color);
 }
 
@@ -249,11 +244,6 @@ body {
   align-items: baseline;
   gap: 93px;
 }
-
-/* .container-footer-social {
-  margin-left: 93px;
-  margin-right: 93px;
-} */
 
 .footer-title {
   margin-bottom: 20px;
