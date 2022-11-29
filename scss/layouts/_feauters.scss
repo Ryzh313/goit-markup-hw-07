@@ -8,6 +8,10 @@
 
 .features-item {
     width: 270px;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .icon-container {
@@ -18,10 +22,6 @@
     margin-bottom: 30px;
     background-color: var(--secondary-white-color);
     border-radius: 4px;
-}
-
-.features-item:not(:last-child) {
-    margin-right: 30px;
 }
 
 .features-title {

@@ -34,11 +34,13 @@ body {
 
     transition: color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: var(--accent-blue-color);
+            text-decoration: none;
+        }
 }
 
-.link:hover,
-.link:focus {
-    color: var(--accent-blue-color);
-    text-decoration: none;
-}
+
 

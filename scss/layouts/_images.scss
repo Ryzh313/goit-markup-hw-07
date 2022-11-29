@@ -8,11 +8,13 @@
 
 .img {
     position: relative;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
-.img:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .images-label {
     position: absolute;

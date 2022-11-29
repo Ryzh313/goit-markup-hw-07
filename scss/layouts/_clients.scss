@@ -17,21 +17,24 @@
 
     transition: border-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            border-color: var(--accent-blue-color);
+        }
 }
 
-.clients-link:hover,
-.clients-link:focus {
-    border-color: var(--accent-blue-color);
-}
+
 
 .clients-icon {
     fill: #afb1b8;
 
     transition: fill 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .clients-link:hover &,
+    .clients-link:focus & {
+            fill: var(--accent-blue-color);
+        }
 }
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-    fill: var(--accent-blue-color);
-}

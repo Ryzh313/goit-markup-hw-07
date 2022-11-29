@@ -44,33 +44,3 @@
     align-items: center;
     justify-content: center;
 }
-
-.social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    outline: transparent;
-
-    transition: background-color 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--accent-blue-color);
-}
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-    fill: var(--primery-white-color);
-}
-
-.social-icon {
-    fill: #afb1b8;
-
-    transition: fill 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}

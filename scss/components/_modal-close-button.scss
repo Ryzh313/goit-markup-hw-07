@@ -15,17 +15,19 @@
     cursor: pointer;
 }
 
-.modal-close-button:focus .icon-close-black {
-    fill: var(--accent-blue-color);
-}
-
 .icon-close-black {
     fill: var(--accent-black-color);
 
     transition: fill 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    .modal-close-button:focus & {
+            fill: var(--accent-blue-color);
+        }
+
+    &:hover {
+            fill: var(--accent-blue-color);
+        }
+
 }
 
-.icon-close-black:hover {
-    fill: var(--accent-blue-color);
-}
