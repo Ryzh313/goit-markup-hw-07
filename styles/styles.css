@@ -53,10 +53,10 @@ body {
   padding-right: 15px;
 } */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* .visually-hidden {
   position: absolute;
@@ -72,12 +72,12 @@ body {
   overflow: hidden;
 } */
 
-.link {
+/* .link {
   text-decoration: none;
 
   transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /*========== Загальні стилі =========== */
 
 /*========== Верхня лінія / Футер ========== */
@@ -179,6 +179,8 @@ body {
   margin-left: 50px;
 }
 
+/* ==== футер ===== */
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -199,11 +201,11 @@ body {
   margin-bottom: 9px;
 }
 
-.link:hover,
+/* .link:hover,
 .link:focus {
   color: var(--accent-blue-color);
   text-decoration: none;
-}
+} */
 
 .link-map {
   color: var(--primery-white-color);
@@ -363,7 +365,7 @@ body {
 /*= = = = = CSS index.html = = = = = */
 
 /* =========== Герой ========== */
-.hero {
+/* .hero {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -420,7 +422,7 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--hover-blue-color);
-}
+} */
 /* =========== Герой ========== */
 
 /*= = = = = CSS index.html = = = = = */
