@@ -369,14 +369,14 @@ body {
   height: 100%;
 }
 
-.social-list {
+.social__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.social-link {
+.social__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -387,16 +387,16 @@ body {
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link:hover, .social-link:focus {
+.social__link:hover, .social__link:focus {
   background-color: var(--accent-blue-color);
 }
 
-.social-icon {
+.social__icon {
   fill: #afb1b8;
   transition: fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link:hover .social-icon, .social-link:focus .social-icon {
+.social__link:hover .social__icon, .social__link:focus .social__icon {
   fill: var(--primery-white-color);
 }
 
