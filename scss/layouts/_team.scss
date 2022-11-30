@@ -2,13 +2,13 @@
     background-color: var(--secondary-white-color);
 }
 
-.cards {
+.team__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.card {
+.team__item {
     width: 270px;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -16,12 +16,12 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.container-card-info {
+.team__container-info {
     padding: 30px;
     background-color: var(--primery-white-color);
 }
 
-.card-title {
+.team__title {
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -31,17 +31,11 @@
     letter-spacing: 0.03em;
 }
 
-.card-post {
+.team__post {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
-}
 
-.social-list {
-    display: flex;    
-    align-items: center;
-    justify-content: center;
-
-    gap: 10px;
+    color: var(--secondary-text-color);
 }

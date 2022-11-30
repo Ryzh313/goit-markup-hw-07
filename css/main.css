@@ -369,6 +369,13 @@ body {
   height: 100%;
 }
 
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .social-link {
   display: flex;
   align-items: center;
@@ -556,22 +563,22 @@ body {
   color: var(--secondary-text-color);
 }
 
-.images {
+.works {
   padding-top: 0;
 }
 
-.images-list {
+.works__list {
   display: flex;
 }
 
-.img {
+.works__item {
   position: relative;
 }
-.img:not(:last-child) {
+.works__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.images-label {
+.works__label {
   position: absolute;
   bottom: 0;
   width: 370px;
@@ -583,7 +590,7 @@ body {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.images-text {
+.works__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -597,24 +604,24 @@ body {
   background-color: var(--secondary-white-color);
 }
 
-.cards {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.card {
+.team__item {
   width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.container-card-info {
+.team__container-info {
   padding: 30px;
   background-color: var(--primery-white-color);
 }
 
-.card-title {
+.team__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -623,18 +630,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.card-post {
+.team__post {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 16px;
-}
-
-.social-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+  color: var(--secondary-text-color);
 }
 
 .clients-list {
@@ -752,6 +753,7 @@ body {
 .project-post {
   line-height: 1.88;
   letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .project-label {
