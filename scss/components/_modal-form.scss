@@ -3,13 +3,13 @@
     flex-direction: column;
 }
 
-&__input-container {
+.modal-form__input-container {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-&__label {
+.modal-form__label {
     margin-bottom: 4px;
 
     font-size: 12px;
@@ -19,7 +19,7 @@
     color: var(--secondary-text-color);
 }
 
-&__input {
+.modal-form__input {
     width: 448px;
     height: 40px;
     margin-bottom: 10px;
@@ -44,7 +44,7 @@
 
 
 
-&__input-svg {
+.modal-form__input-svg {
     position: absolute;
     top: 29px;
     left: 12px;
@@ -57,12 +57,12 @@
     pointer-events: none;
 }
 
-&__input:hover+&__input-svg,
-&__input:focus+&__input-svg {
+.modal-form__input:hover+.modal-form__input-svg,
+.modal-form__input:focus+.modal-form__input-svg {
     fill: var(--accent-blue-color);
 }
 
-&__textarea {
+.modal-form__textarea {
     width: 448px;
     height: 120px;
     margin-bottom: 20px;
@@ -91,7 +91,7 @@
         }
 }
 
-&__checkbox-wrapper {
+.modal-form__checkbox-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,7 @@
     cursor: pointer;
 }
 
-&__checkbox-svg {
+.modal-form__checkbox-svg {
     margin-right: 10px;
 
     fill: var(--primery-white-color);
@@ -120,16 +120,16 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-&__input-checkbox:checked+&__checkbox-svg {
+.modal-form__input-checkbox:checked+.modal-form__checkbox-svg {
     border-color: var(--accent-blue-color);
     background-color: var(--accent-blue-color);
 }
 
-&__input-checkbox:focus+&__checkbox-svg {
+.modal-form__input-checkbox:focus+.modal-form__checkbox-svg {
     border-color: var(--accent-blue-color);
 }
 
-&__checkbox-link {
+.modal-form__checkbox-link {
     margin-left: 5px;
 
     font-size: 14px;
