@@ -9,16 +9,11 @@
 
     transition: background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--accent-blue-color);
-}
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-    fill: var(--primery-white-color);
+        &:hover,
+        &:focus {
+                background-color: var(--accent-blue-color);
+            }
 }
 
 .social-icon {
@@ -26,6 +21,11 @@
 
     transition: fill 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        .social-link:hover &,
+        .social-link:focus & {
+            fill: var(--primery-white-color);
+        }
 }
 
 // === footer-social-link
@@ -42,14 +42,16 @@
 
     transition: background-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        .social-link-footer:hover,
+        .social-link-footer:focus {
+                background-color: var(--accent-blue-color);
+            }
 }
 
 .social-icon-footer {
     fill: var(--primery-white-color);
 }
 
-.social-link-footer:hover,
-.social-link-footer:focus {
-    background-color: var(--accent-blue-color);
-}
+
 

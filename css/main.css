@@ -336,13 +336,14 @@ body {
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-form-button:hover,
-.modal-form-button:focus {
+.modal-form-button:hover, .modal-form-button:focus {
   background-color: var(--hover-blue-color);
 }
 
 .email-button {
+  display: flex;
+  align-items: center;
+  text-align: center;
   width: 200px;
   height: 50px;
   padding: 10px 28px;
@@ -356,14 +357,9 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
-  display: flex;
-  align-items: center;
-  text-align: center;
   cursor: pointer;
 }
-
-.email-button:hover,
-.email-button:focus {
+.email-button:hover, .email-button:focus {
   background-color: var(--hover-blue-color);
 }
 
@@ -384,21 +380,17 @@ body {
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-link:hover,
-.social-link:focus {
+.social-link:hover, .social-link:focus {
   background-color: var(--accent-blue-color);
-}
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: var(--primery-white-color);
 }
 
 .social-icon {
   fill: #afb1b8;
   transition: fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link:hover .social-icon, .social-link:focus .social-icon {
+  fill: var(--primery-white-color);
 }
 
 .social-link-footer {
@@ -413,14 +405,13 @@ body {
   transition: background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.social-link-footer .social-link-footer:hover,
+.social-link-footer .social-link-footer:focus {
+  background-color: var(--accent-blue-color);
+}
 
 .social-icon-footer {
   fill: var(--primery-white-color);
-}
-
-.social-link-footer:hover,
-.social-link-footer:focus {
-  background-color: var(--accent-blue-color);
 }
 
 .header {
@@ -643,9 +634,9 @@ body {
 
 .social-list {
   display: flex;
-  gap: 10px;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 
 .clients-list {
