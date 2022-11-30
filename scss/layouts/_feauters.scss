@@ -2,11 +2,11 @@
     padding-bottom: 94px;
 }
 
-.features-list {
+.features__list {
     display: flex;
 }
 
-.features-item {
+.features__item {
     width: 270px;
 
     &:not(:last-child) {
@@ -14,7 +14,7 @@
         }
 }
 
-.icon-container {
+.features__icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@
     border-radius: 4px;
 }
 
-.features-title {
+.features__title {
     margin-bottom: 10px;
 
     font-size: 14px;
@@ -33,12 +33,10 @@
     letter-spacing: 0.03em;
 }
 
-.features-post {
+.features__post {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-}
 
-.post {
     color: var(--secondary-text-color);
 }
