@@ -15,9 +15,8 @@
 }
 
 .features__icon-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-center;
+    
     height: 120px;
     margin-bottom: 30px;
     background-color: var(--secondary-white-color);

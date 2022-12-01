@@ -20,14 +20,14 @@
     position: absolute;
     bottom: 0;
 
+    @include flex-center;
+
     width: 370px;
     height: 70px;
 
     z-index: 1;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 
     background: rgba(47, 48, 58, 0.8);
 }

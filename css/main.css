@@ -329,7 +329,6 @@ body {
   align-items: center;
   text-align: center;
   padding: 10px 28px;
-  text-align: center;
 }
 
 .main-button__icon {
@@ -537,12 +536,12 @@ body {
 .works__label {
   position: absolute;
   bottom: 0;
-  width: 370px;
-  height: 70px;
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 370px;
+  height: 70px;
+  z-index: 1;
   background: rgba(47, 48, 58, 0.8);
 }
 
